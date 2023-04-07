@@ -5,10 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d0f047a-8433-42aa-9a78-345eaddfa3eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.hillel_lesson5_hw.dir/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.hillel_lesson5_hw.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.hillel_lesson5_hw.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.hillel_lesson5_hw.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/Hillel_Lesson5_HW.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/SelectRoot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/SquareRootsCalculator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/apphost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/ref/Hillel_Lesson5_HW.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/refint/Hillel_Lesson5_HW.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Hillel_Lesson5_HW.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Hillel_Lesson5_HW.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Hillel_Lesson5_HW.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hillel_lesson5_hw.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hillel_lesson5_hw.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,22 +55,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DebuggerViewTab_PTCS_FirstProportionKey": "0.3496708",
+    "DebuggerViewTab_PTCS_LastProportionKey": "0.0",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/denis.klimovets/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/denis.klimovets/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
-      &quot;/Users/denis.klimovets/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/denis.klimovets/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
+      "/Users/denis.klimovets/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache",
+      "/Users/denis.klimovets/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Hillel_Lesson5_HW" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -75,6 +106,7 @@
       <workItem from="1680701734990" duration="1973000" />
       <workItem from="1680825213069" duration="154000" />
       <workItem from="1680825373351" duration="256000" />
+      <workItem from="1680825651727" duration="9887000" />
     </task>
     <servers />
   </component>
