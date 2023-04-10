@@ -25,10 +25,10 @@ namespace Hillel_Lesson5_HW
             }
 
 
-            for (int i = 0; i < newArray.Numbers.Length; i++)
-            {
-                Console.WriteLine(newArray.Numbers[i]);
-            }
+            // for (int i = 0; i < newArray.Numbers.Length; i++)
+            // {
+            //     Console.WriteLine(newArray.Numbers[i]);
+            // }
 
             Console.WriteLine();
             Console.WriteLine();
@@ -44,15 +44,26 @@ namespace Hillel_Lesson5_HW
             finalArray.Numbers = finalArray.SquareRoots(newArray.Numbers, filterRoots);
 
 
-            for (int i = 0; i < finalArray.Numbers.Length; i++)
-            {
-                Console.WriteLine(finalArray.Numbers[i]);
-            }
+            // for (int i = 0; i < finalArray.Numbers.Length; i++)
+            // {
+            //     Console.WriteLine(finalArray.Numbers[i]);
+            // }
             
-
+            finalArray.CatchIntegerNumber += On_CatchInteger;
+            
+            finalArray.ShowIntegerNumbers();
+            
             Console.ReadKey();
 
         }
+
+
+        public static void On_CatchInteger(object sender, IntegerEventArgs e)
+        {
+            Console.WriteLine(e.Number);
+        }
+        
+        
 
     }
 }
