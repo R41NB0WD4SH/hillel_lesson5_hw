@@ -4,10 +4,7 @@
     <projectFile>Hillel_Lesson5_HW/Hillel_Lesson5_HW.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d0f047a-8433-42aa-9a78-345eaddfa3eb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.hillel_lesson5_hw.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hillel_lesson5_hw.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs" afterDir="false" />
-    </list>
+    <list default="true" id="0d0f047a-8433-42aa-9a78-345eaddfa3eb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +79,7 @@
       <workItem from="1680825373351" duration="256000" />
       <workItem from="1680825651727" duration="20826000" />
       <workItem from="1681141372317" duration="35000" />
+      <workItem from="1681141433780" duration="84000" />
     </task>
     <servers />
   </component>
