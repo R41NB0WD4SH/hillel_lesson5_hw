@@ -5,44 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d0f047a-8433-42aa-9a78-345eaddfa3eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/Hillel_Lesson5_HW.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/SelectRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/SquareRootsCalculator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/apphost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/ref/Hillel_Lesson5_HW.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/refint/Hillel_Lesson5_HW.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Hillel_Lesson5_HW.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Hillel_Lesson5_HW.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Hillel_Lesson5_HW.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.hillel_lesson5_hw.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hillel_lesson5_hw.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/SelectRoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/FilterRoots.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/SquareRootsCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/SquareRootsCalculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/ref/Hillel_Lesson5_HW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/ref/Hillel_Lesson5_HW.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/refint/Hillel_Lesson5_HW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/refint/Hillel_Lesson5_HW.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ea1543712b8666d7afd81d207427f638af8ad4c553e9d64941e5bd7e94a55/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f911b09e1288a8c177bf16082a3dc8c5b5048a482a747579563af5fe89977/Random.Xoshiro256StarStarImpl.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -106,7 +89,7 @@
       <workItem from="1680701734990" duration="1973000" />
       <workItem from="1680825213069" duration="154000" />
       <workItem from="1680825373351" duration="256000" />
-      <workItem from="1680825651727" duration="9887000" />
+      <workItem from="1680825651727" duration="20826000" />
     </task>
     <servers />
   </component>
@@ -117,5 +100,24 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs</url>
+          <line>38</line>
+          <properties documentPath="$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs" initialLine="38" containingFunctionPresentation="method 'SquareRoots'">
+            <startOffsets>
+              <option value="591" />
+            </startOffsets>
+            <endOffsets>
+              <option value="592" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

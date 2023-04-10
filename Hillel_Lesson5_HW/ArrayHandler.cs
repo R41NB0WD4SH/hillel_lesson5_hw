@@ -3,11 +3,11 @@ namespace Hillel_Lesson5_HW;
 public class ArrayHandler
 {
 
-    private int[] _numbers = new int[50];
+    private double[] _numbers = new double[500];
     private int[] _selectedRoots = new int[1];
     
     
-    public int[] Numbers
+    public double[] Numbers
     {
         get
         {
@@ -35,22 +35,12 @@ public class ArrayHandler
 
 
 
-    // public int[] SquareRoots()
-    // {
-    //     
-    // }
-    
-    
-    
-    
-    // public int GetSquareRoot(int number)
-    // {
-    //     
-    //     
-    //     
-    //     
-    //     
-    // }
+    public double[] SquareRoots(double[] numbers, FilterRoots filterRoots)
+    {
+        return filterRoots(numbers);
+
+
+    }
 
 
 

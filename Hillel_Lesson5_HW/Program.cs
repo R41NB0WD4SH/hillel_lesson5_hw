@@ -10,15 +10,18 @@ namespace Hillel_Lesson5_HW
             
             
             Random rnd = new Random();
+            Random rndDouble = new Random();
 
             ArrayHandler newArray = new ArrayHandler();
 
-            int[] numbers = new int [10];
+            double[] numbers = new double [10];
 
             for (int i = 0; i < newArray.Numbers.Length; i++)
             {
-                int nextNumber = rnd.Next(0, 1000);
-                newArray.Numbers[i] = nextNumber;
+                double number = rndDouble.NextDouble();
+                int multiplier = rnd.Next(0, 1000);
+                
+                newArray.Numbers[i] = number * multiplier;
             }
 
 
@@ -27,8 +30,29 @@ namespace Hillel_Lesson5_HW
                 Console.WriteLine(newArray.Numbers[i]);
             }
 
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+
+
+            FilterRoots filterRoots = new FilterRoots(SquareRootsCalculator.GetFilteredNumbers);
+            
+            
+            
+            ArrayHandler finalArray = new ArrayHandler();
+
+            finalArray.Numbers = finalArray.SquareRoots(newArray.Numbers, filterRoots);
+
+
+            for (int i = 0; i < finalArray.Numbers.Length; i++)
+            {
+                Console.WriteLine(finalArray.Numbers[i]);
+            }
+            
+
             Console.ReadKey();
 
         }
+
     }
 }
