@@ -37,7 +37,6 @@ public class ArrayHandler
 
     public double[] SquareRoots(double[] numbers, FilterRoots filterRoots)
     {
-        return filterRoots(numbers);
 
 
     }
