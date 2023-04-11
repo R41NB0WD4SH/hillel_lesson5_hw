@@ -3,11 +3,13 @@ namespace Hillel_Lesson5_HW;
 public class ArrayHandler
 {
 
-    private double[] _numbers = new double[500];
-    private int[] _selectedRoots = new int[1];
-    
-    
-    public double[] Numbers
+    private int[] _numbers = new int[20];
+    private double[] _filteredRoots;
+
+    public event EventHandler<IntegerNumberEvent> IntegerNumber; 
+
+
+    public int[] Numbers
     {
         get
         {
@@ -20,25 +22,55 @@ public class ArrayHandler
 
     }
 
-    public int[] SelectedRoots
+    public double[] FilteredRoots
     {
         get
         {
-            return _selectedRoots;
+            return _filteredRoots;
         }
         set
         {
-            _selectedRoots = value;
+            _filteredRoots = value;
         }
     }
 
 
-
-
-    public double[] SquareRoots(double[] numbers, FilterRoots filterRoots)
+    public void GetFilteredRoots(FilterRoots filterRoots)
     {
+        FilteredRoots = filterRoots(Numbers);
+    }
 
 
+    public void ShowIntegerRoots()
+    {
+        for (int i = 0; i < FilteredRoots.Length; i++)
+        {
+            if (FilteredRoots[i] == 0)
+            {
+                IntegerNumberEvent numbers = new IntegerNumberEvent()
+                {
+                    Number = FilteredRoots[i]
+                };
+            }
+            else
+            {
+                if (FilteredRoots[i] % 1 == 0)
+                {
+                    IntegerNumberEvent numbers = new IntegerNumberEvent()
+                    {
+                        Number = FilteredRoots[i]
+                    };
+                    OnIntegerNumber(numbers);
+                }
+            }
+
+        }
+    }
+    
+    
+    protected virtual void OnIntegerNumber(IntegerNumberEvent e)
+    {
+        IntegerNumber?.Invoke(this, e);
     }
 
 

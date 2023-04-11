@@ -21,7 +21,7 @@ namespace Hillel_Lesson5_HW
                 double number = rndDouble.NextDouble();
                 int multiplier = rnd.Next(0, 1000);
                 
-                newArray.Numbers[i] = number * multiplier;
+                newArray.Numbers[i] = multiplier;
             }
 
 
@@ -34,25 +34,28 @@ namespace Hillel_Lesson5_HW
             Console.WriteLine();
             Console.WriteLine();
 
-
-            FilterRoots filterRoots = new FilterRoots(SquareRootsCalculator.GetFilteredNumbers);
+            FilterRoots filterRoots = new FilterRoots(SquareRootsCalculator.GetIntegerRoots);
             
             
-            
-            ArrayHandler finalArray = new ArrayHandler();
-
-            finalArray.Numbers = finalArray.SquareRoots(newArray.Numbers, filterRoots);
-
-
-            for (int i = 0; i < finalArray.Numbers.Length; i++)
-            {
-                Console.WriteLine(finalArray.Numbers[i]);
-            }
+            newArray.GetFilteredRoots(filterRoots);
             
 
+            newArray.IntegerNumber += On_IntegerNumber;
+            
+            newArray.ShowIntegerRoots();
+            
             Console.ReadKey();
 
         }
+        
+        
+        public static void On_IntegerNumber(object sender, IntegerNumberEvent e)
+        {
+            Console.WriteLine("{0} - Integer Root", e.Number);
+        }
+        
+        
+        
 
     }
 }

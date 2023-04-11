@@ -4,14 +4,28 @@
     <projectFile>Hillel_Lesson5_HW/Hillel_Lesson5_HW.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d0f047a-8433-42aa-9a78-345eaddfa3eb" name="Changes" comment="" />
+    <list default="true" id="0d0f047a-8433-42aa-9a78-345eaddfa3eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/IntegerNumberEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hillel_lesson5_hw.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hillel_lesson5_hw.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/FilterRoots.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/FilterRoots.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/SquareRootsCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/SquareRootsCalculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/ref/Hillel_Lesson5_HW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/ref/Hillel_Lesson5_HW.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/refint/Hillel_Lesson5_HW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/refint/Hillel_Lesson5_HW.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Hillel_Lesson5_HW/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hillel_Lesson5_HW/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ea1543712b8666d7afd81d207427f638af8ad4c553e9d64941e5bd7e94a55/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f911b09e1288a8c177bf16082a3dc8c5b5048a482a747579563af5fe89977/Random.Xoshiro256StarStarImpl.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -48,7 +62,7 @@
     <configuration name="Hillel_Lesson5_HW" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -57,7 +71,7 @@
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Hillel_Lesson5_HW/Hillel_Lesson5_HW.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="0" />
       <option name="PROJECT_KIND" value="Unloaded" />
       <option name="PROJECT_TFM" value="" />
       <method v="2">
@@ -80,6 +94,7 @@
       <workItem from="1680825651727" duration="20826000" />
       <workItem from="1681141372317" duration="35000" />
       <workItem from="1681141433780" duration="84000" />
+      <workItem from="1681141563236" duration="9195000" />
     </task>
     <servers />
   </component>
@@ -90,5 +105,24 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs</url>
+          <line>44</line>
+          <properties documentPath="$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs" initialLine="44" containingFunctionPresentation="method 'ShowIntegerRoots'">
+            <startOffsets>
+              <option value="709" />
+            </startOffsets>
+            <endOffsets>
+              <option value="710" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
