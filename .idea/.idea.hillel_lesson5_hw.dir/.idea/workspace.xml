@@ -4,21 +4,7 @@
     <projectFile>Hillel_Lesson5_HW/Hillel_Lesson5_HW.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d0f047a-8433-42aa-9a78-345eaddfa3eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/IntegerNumberEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.hillel_lesson5_hw.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hillel_lesson5_hw.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/FilterRoots.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/FilterRoots.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/SquareRootsCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/SquareRootsCalculator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/bin/Debug/net7.0/Hillel_Lesson5_HW.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/Hillel_Lesson5_HW.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/ref/Hillel_Lesson5_HW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/ref/Hillel_Lesson5_HW.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/refint/Hillel_Lesson5_HW.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_Lesson5_HW/obj/Debug/net7.0/refint/Hillel_Lesson5_HW.dll" afterDir="false" />
-    </list>
+    <list default="true" id="0d0f047a-8433-42aa-9a78-345eaddfa3eb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,6 +81,7 @@
       <workItem from="1681141372317" duration="35000" />
       <workItem from="1681141433780" duration="84000" />
       <workItem from="1681141563236" duration="9195000" />
+      <workItem from="1681221151656" duration="5531000" />
     </task>
     <servers />
   </component>
@@ -114,10 +101,10 @@
           <line>44</line>
           <properties documentPath="$PROJECT_DIR$/Hillel_Lesson5_HW/ArrayHandler.cs" initialLine="44" containingFunctionPresentation="method 'ShowIntegerRoots'">
             <startOffsets>
-              <option value="709" />
+              <option value="721" />
             </startOffsets>
             <endOffsets>
-              <option value="710" />
+              <option value="722" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

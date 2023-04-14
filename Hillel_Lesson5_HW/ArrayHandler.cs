@@ -35,10 +35,10 @@ public class ArrayHandler
     }
 
 
-    public void GetFilteredRoots(FilterRoots filterRoots)
-    {
-        FilteredRoots = filterRoots(Numbers);
-    }
+    // public void GetFilteredRoots(FilterRoots filterRoots)
+    // {
+    //     FilteredRoots = filterRoots(Numbers);
+    // }
 
 
     public void ShowIntegerRoots()
