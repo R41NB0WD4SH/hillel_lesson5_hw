@@ -33,18 +33,22 @@ namespace Hillel_Lesson5_HW
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
-
-            // FilterRoots filterRoots = new FilterRoots(SquareRootsCalculator.GetIntegerRoots);
             
             
-            // newArray.GetFilteredRoots(filterRoots);
+            newArray.FilteredRoots = SquareRootsCalculator.GetRoots(newArray.Numbers, SquareRootsCalculator.numbersFilter);
+
+            // for (int i = 0; i < filteredRoots.Length; i++)
+            // {
+            //     Console.WriteLine("{0}", filteredRoots[i]);
+            // }
 
 
-            // FilterRoots filterRoots = new FilterRoots();
 
             newArray.IntegerNumber += On_IntegerNumber;
             
             newArray.ShowIntegerRoots();
+
+            
             
             Console.ReadKey();
 

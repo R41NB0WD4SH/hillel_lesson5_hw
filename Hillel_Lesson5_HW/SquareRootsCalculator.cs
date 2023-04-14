@@ -1,53 +1,35 @@
 
+using System.Runtime.CompilerServices;
+
 namespace Hillel_Lesson5_HW;
 
 public static class SquareRootsCalculator
 {
 
-    public static double[] GetRoots(this int[] number, FilterRoots filterRoots)
+    public static List<double> GetRoots(int[] number, Func<int, bool> numberFilter)
     {
 
-        double[] roots = new double[number.Length];
+        List<double> roots = new List<double>(number.Length);
 
-        for (int i = 0; i < roots.Length; i++)
+        for (int i = 0; i < number.Length; i++)
         {
-            roots[i] = Math.Sqrt(number[i]);
-        }
-
-        double[] filteredRoots = new double[0];
-
-        filterRoots += SelectIntegersAndDivBy5Roots;
-
-        return filterRoots(roots);
-
-    }
-
-    public static double[] SelectIntegersAndDivBy5Roots(double[] roots)
-    { 
-        double[] filteredRoots = new double[0];
-        
-        for (int i = 0; i < roots.Length; i++)
-        {
-            if (roots[i] > 5 || roots[i] % 1 == 0)
+            if (numberFilter(number[i]))
             {
-                Array.Resize(ref filteredRoots, filteredRoots.Length + 1);
-                filteredRoots[filteredRoots.Length - 1] = roots[i];
+                roots.Add(Math.Sqrt(number[i]));
             }
         }
 
-        return filteredRoots;
-
+        return roots;
     }
-
-    static Func<int, bool> numbersFilter = a => a > 5;
-
+    
+    public static Func<int, bool> numbersFilter = a => Math.Sqrt(a) > 5;
+    
     public static void GetNumbers(Func<int, bool> filter)
     {
         for (int i = 0; i < 100; i++)
             if (filter(i))
                 Console.WriteLine(i);
     }
-
     
     
 }

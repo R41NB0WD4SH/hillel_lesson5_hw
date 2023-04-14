@@ -4,7 +4,7 @@ public class ArrayHandler
 {
 
     private int[] _numbers = new int[20];
-    private double[] _filteredRoots;
+    private List<double> _filteredRoots;
 
     public event EventHandler<IntegerNumberEvent> IntegerNumber; 
 
@@ -22,7 +22,7 @@ public class ArrayHandler
 
     }
 
-    public double[] FilteredRoots
+    public List<double> FilteredRoots
     {
         get
         {
@@ -35,35 +35,21 @@ public class ArrayHandler
     }
 
 
-    // public void GetFilteredRoots(FilterRoots filterRoots)
-    // {
-    //     FilteredRoots = filterRoots(Numbers);
-    // }
+
 
 
     public void ShowIntegerRoots()
     {
-        for (int i = 0; i < FilteredRoots.Length; i++)
+        for (int i = 0; i < FilteredRoots.Count; i++)
         {
-            if (FilteredRoots[i] == 0)
+            if (FilteredRoots[i] % 1 == 0)
             {
                 IntegerNumberEvent numbers = new IntegerNumberEvent()
                 {
                     Number = FilteredRoots[i]
                 };
+                OnIntegerNumber(numbers);
             }
-            else
-            {
-                if (FilteredRoots[i] % 1 == 0)
-                {
-                    IntegerNumberEvent numbers = new IntegerNumberEvent()
-                    {
-                        Number = FilteredRoots[i]
-                    };
-                    OnIntegerNumber(numbers);
-                }
-            }
-
         }
     }
     
